@@ -13,7 +13,7 @@ Se usa un hash para mantener un registro unico por jugador, siempre y cuando el 
 
 Esta funcion obtiene el valor a modular del string que se le da, conviritendolo a ASCII para luego transformarlo a un numero entero.  Su complejidad de tiempo es de O(n) para el peor de los casos (en este caso 'n' es el tamaño del string).
 
-### indexOf
+### indexOf (privada)
 
 Esta funcion encuentra una ubicacion apropiada para el valor que se le alimenta, que en este caso es el nombre del jugador. Es llamada por diferentes algoritmos para obtener la ubicacion del registro. Su complejidad de tiempo es de O(n) para el peor de los casos.
 
