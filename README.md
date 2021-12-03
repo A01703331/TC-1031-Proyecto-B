@@ -3,7 +3,7 @@ Este proyecto imprime los mejores tiempos que se le alimentan en la consola, gua
 
 ## Competencias
 
-### SICT0303B: Usa un algoritmo de hashing adecauado para resolver un problema
+### SICT0302B: Usa un algoritmo de hashing adecauado para resolver un problema
 
 Se usa un hash para mantener un registro unico por jugador, siempre y cuando el nombre este escrito de la misma forma, caracter por caracter. Se sobreescribe el valor de tiempo que se guarda cuando el tiempo alimentado es menor al que existe en el registro.
 
