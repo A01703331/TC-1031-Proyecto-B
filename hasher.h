@@ -167,7 +167,7 @@ template <class Player, class Time>
 std::string HashTable<Player, Time>::printBestTimes() const {
 	std::stringstream aux;
 	for (unsigned int i	 = 0; i < tamanio; i++) {
-		//if (players[i] != GuestA)
+		if (players[i] != GuestA)
 			aux << players[i] << "," << printTime(times[i]) << "\n";
 	}
 	return aux.str();
